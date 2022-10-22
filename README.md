@@ -11,4 +11,15 @@ Chagall was originally created for the calorie tracker [Clean Slate](https://git
 
 To use Chagall, add `chagall.scss` into your project. This will automatically style elements like `h2`. You can also use utility classes, like `mt10` or `fcs`.
 
-> Note: If you are using CSS-in-JS, like [Emotion](https://emotion.sh/), you can also import `chagall.ts`. This file defines the SCSS variables (color and layout) in TypeScript.
+If you are using CSS-in-JS, like [Emotion](https://emotion.sh/), you can also import `chagall.ts`. This file defines the SCSS variables (color and layout) in TypeScript.
+
+Here is one way to that:
+
+```ts
+import * as chagall from "../node_modules/chagall/src/chagall";
+
+export const { colors, layout } = chagall;
+export const { lg, md, sm, xlg, xs, xxlg } = layout;
+
+export type Colors = keyof typeof colors;
+```
