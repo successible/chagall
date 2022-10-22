@@ -16,13 +16,13 @@ export const colors = {
   text: "#606c76",
   white: "#ffffff",
   yellow: "#fff6c2",
-} as const;
+};
 
-export const xs = 320;
-export const sm = 576;
-export const md = 768;
-export const lg = 992;
-export const xlg = 1024;
-export const xxlg = 1500;
-
-export type Colors = keyof typeof colors;
+export const layout = {
+  xs: 320,
+  sm: 576,
+  md: 768,
+  lg: 992,
+  xlg: 1024,
+  xxlg: 1500,
+};
