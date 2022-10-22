@@ -1,0 +1,8 @@
+{
+  "name": "chagall",
+  "version": "1.10.0",
+  "description": "🎨 Tiny CSS framework (4kb) to make websites look good",
+  "author": "Successible LLC",
+  "license": "Apache-2.0",
+  "repository": "https://github.com/successible/chagall.git"
+}
